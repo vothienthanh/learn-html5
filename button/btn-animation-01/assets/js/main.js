@@ -39,5 +39,4 @@ $doc = $(document);
 
 $doc.ready(function() {
   
-  
 })
