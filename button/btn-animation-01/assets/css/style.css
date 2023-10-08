@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------
+[Common]
+*/
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("../fonts/AvenirNextLTPro-BoldIt.woff2") format("woff2"), url("../fonts/AvenirNextLTPro-BoldIt.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap; }
+ 
+body {
+  font-size: 16px;
+  font-family: "Avenir Next", sans-serif;
+  line-height: 1.375;
+  font-weight: 400;
+  color: #777777; }
+  @media (max-width: 991px) {
+    body.body-hidden {
+      overflow: hidden; } }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.375;
+  font-weight: 700;
+  font-family: "Avenir Next", sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  height: unset;
+  width: auto; }
+
+textarea {
+  resize: none; }
+
+a {
+  color: #50331E;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #FBED17; }
+
+/*------------------------------------------------------------------
+[Buttons]
+*/
+button {
+  cursor: pointer; }
+  button:focus {
+    outline: none; }
